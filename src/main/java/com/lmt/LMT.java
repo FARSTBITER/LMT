@@ -1,5 +1,7 @@
 package com.lmt;
 
+import com.lmt.world.item.LMTItems;
+
 import net.fabricmc.api.ModInitializer;
 
 public class LMT implements ModInitializer {
@@ -8,6 +10,8 @@ public class LMT implements ModInitializer {
 	
 	@Override
 	public void onInitialize() {
+		
+		LMTItems.initialize();
 		
 	}
 	

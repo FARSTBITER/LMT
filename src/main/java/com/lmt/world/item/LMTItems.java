@@ -1,0 +1,30 @@
+package com.lmt.world.item;
+
+import java.util.function.Function;
+
+import com.lmt.LMT;
+
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.item.Item;
+
+public class LMTItems {
+	
+	public static void initialize() {
+		
+	}
+	
+	public static Item register(String string, Function<Item.Properties, Item> function, Item.Properties properties) {
+		
+		ResourceKey<Item> resourceKey = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(LMT.MOD_ID, string));
+		Item item = function.apply(properties.setId(resourceKey));
+		Registry.register(BuiltInRegistries.ITEM, resourceKey, item);
+		
+		return item;
+		
+	}
+
+}
