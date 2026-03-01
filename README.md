@@ -1,2 +1,6 @@
-# LMT
-Just a few things that might be helpful...
+<h1>LMT</h1>
+<p>LMT is primarily a tutorial mod for learning modding, but it doesn't add tutorial things, but rather... all sorts of things that you'll likely find useful. There are no plans to provide specific compatibility with mods like REI/JEI/EMI/WTHIT. Most of the features will be technically integrated into the game, whether they were originally included, but compatibility with other mods will be maintained where possible (probably). If you have any questions, you can visit the wiki (it will likely have up-to-date information on all the mod's functionality), or ask a question or suggest an idea on issues.</p>
+<h2>Permissions</h2>
+<p>As you can see, the mod is licensed under MIT, but who reads licenses? Feel free to use the mod however you want, just don't be a jerk. Feel free to embed the mod in your own modpack and so on, but please leave a link to the mod's page if possible. If you fork the mod, be sure to change or add at least something, don't copy the mod and claim to be the original author without contributing anything. If you suggest ideas/textures/resources, you'll be credited, so don't worry.</p>
+<h2>Update Policy (Suddenly)</h2>
+<p>Think this is a joke? Nope. The mod does have an update policy. More precisely, whenever possible, the mod will only be updated for the latest release version of the game. Let's move forward with the game together.</p>
