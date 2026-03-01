@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.lmt.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"LMTMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
