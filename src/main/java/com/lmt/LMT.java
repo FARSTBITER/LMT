@@ -1,5 +1,6 @@
 package com.lmt;
 
+import com.lmt.data.worldgen.LMTBiomeDefaultFeatures;
 import com.lmt.world.item.LMTCreativeModeTabs;
 import com.lmt.world.item.LMTItems;
 import com.lmt.world.level.block.LMTBlocks;
@@ -22,6 +23,7 @@ public class LMT implements ModInitializer {
 		LMTFuelValues.initialize();
 		LMTLootTables.initialize();
 		LMTCreativeModeTabs.initialize();
+		LMTBiomeDefaultFeatures.initialize();
 		
 	}
 	
