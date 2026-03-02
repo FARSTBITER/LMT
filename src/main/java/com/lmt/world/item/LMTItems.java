@@ -13,6 +13,8 @@ import net.minecraft.world.item.Item;
 
 public class LMTItems {
 	
+	public static final Item SULFUR = register("sulfur", Item::new, new Item.Properties());
+	
 	public static void initialize() {
 		
 	}
