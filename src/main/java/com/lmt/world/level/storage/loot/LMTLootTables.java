@@ -4,6 +4,7 @@ import com.lmt.world.item.LMTItems;
 
 import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
 import net.minecraft.resources.Identifier;
+import net.minecraft.world.level.storage.loot.BuiltInLootTables;
 import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
@@ -17,22 +18,74 @@ public class LMTLootTables {
 	
 	public static void initialize() {
 			
-			LootTableEvents.MODIFY.register((key, tableBuilder, source, registry) -> {
-				
-				if(BLAZE_KEY.equals(key.identifier())) {
+		LootTableEvents.MODIFY.register((key, tableBuilder, source, registry) -> {
+		
+			if(BLAZE_KEY.equals(key.identifier())) {
+			
+				LootPool.Builder poolBuilder = LootPool.lootPool()
+						.setRolls(ConstantValue.exactly(1))
+						.conditionally(LootItemRandomChanceCondition.randomChance(0.3F).build())
+						.with(LootItem.lootTableItem(LMTItems.SULFUR).build())
+						.apply(SetItemCountFunction.setCount(UniformGenerator.between(0, 1)).build());
 					
-					LootPool.Builder poolBuilder = LootPool.lootPool()
-							.setRolls(ConstantValue.exactly(1))
-							.conditionally(LootItemRandomChanceCondition.randomChance(0.3F).build())
-							.with(LootItem.lootTableItem(LMTItems.SULFUR).build())
-							.apply(SetItemCountFunction.setCount(UniformGenerator.between(0, 1)).build());
-							
-					tableBuilder.pool(poolBuilder.build());
-							
-			}
+				tableBuilder.pool(poolBuilder.build());
 				
+			}
+			
+		});
+		
+		LootTableEvents.MODIFY.register((key, tableBuilder, source, registry) -> {
+			
+			if(BuiltInLootTables.BASTION_BRIDGE.equals(key)) {
+				
+				LootPool.Builder poolBuilder = LootPool.lootPool()
+						.setRolls(ConstantValue.exactly(1))
+						.conditionally(LootItemRandomChanceCondition.randomChance(0.3F).build())
+						.with(LootItem.lootTableItem(LMTItems.SULFUR).build())
+						.apply(SetItemCountFunction.setCount(UniformGenerator.between(2, 4)).build());
+					
+				tableBuilder.pool(poolBuilder.build());
+				
+			}
+			
+			if(BuiltInLootTables.BASTION_HOGLIN_STABLE.equals(key)) {
+				
+				LootPool.Builder poolBuilder = LootPool.lootPool()
+						.setRolls(ConstantValue.exactly(1))
+						.conditionally(LootItemRandomChanceCondition.randomChance(0.3F).build())
+						.with(LootItem.lootTableItem(LMTItems.SULFUR).build())
+						.apply(SetItemCountFunction.setCount(UniformGenerator.between(2, 4)).build());
+					
+				tableBuilder.pool(poolBuilder.build());
+				
+			}
+			
+			if(BuiltInLootTables.BASTION_OTHER.equals(key)) {
+				
+				LootPool.Builder poolBuilder = LootPool.lootPool()
+						.setRolls(ConstantValue.exactly(1))
+						.conditionally(LootItemRandomChanceCondition.randomChance(0.3F).build())
+						.with(LootItem.lootTableItem(LMTItems.SULFUR).build())
+						.apply(SetItemCountFunction.setCount(UniformGenerator.between(2, 4)).build());
+					
+				tableBuilder.pool(poolBuilder.build());
+				
+			}
+			
+			if(BuiltInLootTables.BASTION_TREASURE.equals(key)) {
+				
+				LootPool.Builder poolBuilder = LootPool.lootPool()
+						.setRolls(ConstantValue.exactly(1))
+						.conditionally(LootItemRandomChanceCondition.randomChance(0.3F).build())
+						.with(LootItem.lootTableItem(LMTItems.SULFUR).build())
+						.apply(SetItemCountFunction.setCount(UniformGenerator.between(2, 4)).build());
+					
+				tableBuilder.pool(poolBuilder.build());
+				
+			}
+			
 		});
 		
 	}
-
+	
 }
