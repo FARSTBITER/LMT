@@ -12,13 +12,13 @@ public class LMTCreativeModeTabs {
 		
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS).register((itemGroup) -> {
 			
-			itemGroup.addAfter(Items.QUARTZ, LMTItems.SULFUR);
+			itemGroup.addBefore(Items.QUARTZ, LMTItems.SULFUR);
 			
 		});
 		
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.BUILDING_BLOCKS).register((itemGroup) -> {
 			
-			itemGroup.addAfter(Items.QUARTZ_BLOCK, LMTBlocks.SULFUR_BLOCK);
+			itemGroup.addBefore(Items.REDSTONE_BLOCK, LMTBlocks.SULFUR_BLOCK);
 			
 		});
 		
