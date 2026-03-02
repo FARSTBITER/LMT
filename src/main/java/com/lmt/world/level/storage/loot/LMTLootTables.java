@@ -15,6 +15,7 @@ import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 public class LMTLootTables {
 	
 	private static final Identifier BLAZE_KEY =  Identifier.fromNamespaceAndPath("minecraft", "entities/blaze");
+	private static final Identifier PIGLIN_BARTER =  Identifier.fromNamespaceAndPath("minecraft", "gameplay/piglin_bartering");
 	
 	public static void initialize() {
 			
@@ -27,6 +28,22 @@ public class LMTLootTables {
 						.conditionally(LootItemRandomChanceCondition.randomChance(0.3F).build())
 						.with(LootItem.lootTableItem(LMTItems.SULFUR).build())
 						.apply(SetItemCountFunction.setCount(UniformGenerator.between(0, 1)).build());
+					
+				tableBuilder.pool(poolBuilder.build());
+				
+			}
+			
+		});
+		
+		LootTableEvents.MODIFY.register((key, tableBuilder, source, registry) -> {
+			
+			if(PIGLIN_BARTER.equals(key.identifier())) {
+			
+				LootPool.Builder poolBuilder = LootPool.lootPool()
+						.setRolls(ConstantValue.exactly(1))
+						.conditionally(LootItemRandomChanceCondition.randomChance(0.05F).build())
+						.with(LootItem.lootTableItem(LMTItems.SULFUR).build())
+						.apply(SetItemCountFunction.setCount(UniformGenerator.between(4, 6)).build());
 					
 				tableBuilder.pool(poolBuilder.build());
 				
