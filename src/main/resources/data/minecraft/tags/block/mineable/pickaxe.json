@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "lmt:nether_sulfur_ore",
     "lmt:sulfur_block"
   ]
 }

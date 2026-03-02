@@ -22,6 +22,12 @@ public class LMTCreativeModeTabs {
 			
 		});
 		
+		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.NATURAL_BLOCKS).register((itemGroup) -> {
+			
+			itemGroup.addBefore(Items.NETHER_QUARTZ_ORE, LMTBlocks.NETHER_SULFUR_ORE);
+			
+		});
+		
 	}
 
 }
