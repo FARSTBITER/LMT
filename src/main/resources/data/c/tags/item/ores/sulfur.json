@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#lmt:sulfur_ores",
+      "required": false
+    }
+  ]
+}
