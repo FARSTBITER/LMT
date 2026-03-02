@@ -3,6 +3,7 @@ package com.lmt;
 import com.lmt.world.item.LMTCreativeModeTabs;
 import com.lmt.world.item.LMTItems;
 import com.lmt.world.level.block.entity.LMTFuelValues;
+import com.lmt.world.level.storage.loot.LMTLootTables;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -15,6 +16,7 @@ public class LMT implements ModInitializer {
 		
 		LMTItems.initialize();
 		LMTFuelValues.initialize();
+		LMTLootTables.initialize();
 		LMTCreativeModeTabs.initialize();
 		
 	}
