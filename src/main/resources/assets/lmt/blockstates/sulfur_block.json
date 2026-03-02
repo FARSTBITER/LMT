@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "lmt:block/sulfur_block"
+    }
+  }
+}

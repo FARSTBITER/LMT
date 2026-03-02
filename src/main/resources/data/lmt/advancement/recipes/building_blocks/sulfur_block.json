@@ -1,0 +1,32 @@
+{
+  "parent": "lmt:recipes/root",
+  "criteria": {
+    "has_sulfur": {
+      "conditions": {
+        "items": [
+          {
+            "items": "lmt:sulfur"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lmt:sulfur_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sulfur"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lmt:sulfur_block"
+    ]
+  }
+}
