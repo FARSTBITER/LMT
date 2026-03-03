@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+	"#c:storage_blocks/charcoal",
     "#c:storage_blocks/sulfur",
 	"#c:storage_blocks/niter"
   ]

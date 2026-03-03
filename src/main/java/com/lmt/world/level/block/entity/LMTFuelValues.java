@@ -11,6 +11,7 @@ public class LMTFuelValues {
 		
 		FuelRegistryEvents.BUILD.register((builder, context) -> {
 			
+			builder.add(LMTBlocks.CHARCOAL_BLOCK, 16000);
 			builder.add(LMTBlocks.SULFUR_BLOCK, 8000);
 			builder.add(LMTBlocks.NITER_BLOCK, 8000);
 			builder.add(LMTItems.SULFUR, 800);
