@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#lmt:niter_ores",
+      "required": false
+    }
+  ]
+}

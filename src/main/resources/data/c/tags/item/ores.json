@@ -4,6 +4,10 @@
     {
       "id": "#c:ores/sulfur",
       "required": false
-    }
+    },
+	{
+	  "id": "#c:ores/niter",
+	  "required": false
+	}
   ]
 }

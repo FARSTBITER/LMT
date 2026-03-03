@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "niter",
+  "ingredient": "lmt:deepslate_niter_ore",
+  "result": {
+    "id": "lmt:niter"
+  }
+}

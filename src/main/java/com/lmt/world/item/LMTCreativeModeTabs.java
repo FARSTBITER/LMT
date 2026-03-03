@@ -26,6 +26,7 @@ public class LMTCreativeModeTabs {
 		
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.NATURAL_BLOCKS).register((itemGroup) -> {
 			
+			itemGroup.addBefore(Items.DEEPSLATE_COAL_ORE, LMTBlocks.DEEPSLATE_NITER_ORE);
 			itemGroup.addAfter(Items.NETHER_QUARTZ_ORE, LMTBlocks.NETHER_SULFUR_ORE);
 			
 		});

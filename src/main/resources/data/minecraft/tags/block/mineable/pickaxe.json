@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+	"lmt:deepslate_niter_ore",
     "lmt:nether_sulfur_ore",
     "lmt:sulfur_block",
 	"lmt:niter_block"
