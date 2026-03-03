@@ -2,6 +2,7 @@
   "block.lmt.sulfur_block": "Block of Sulfur",
   "block.lmt.nether_sulfur_ore": "Nether Sulfur Ore",
   "item.lmt.sulfur": "Sulfur",
+  "item.lmt.saltpeter": "Saltpeter",
   "tag.block.c.ores.sulfur": "Sulfur Ores",
   "tag.block.c.storage_blocks.sulfur": "Storage Blocks of Sulfur",
   "tag.item.c.coal": "Sulfur",

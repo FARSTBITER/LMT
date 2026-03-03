@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "lmt:sulfur"
+    "lmt:sulfur",
+	"lmt:saltpeter"
   ]
 }

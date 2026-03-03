@@ -13,6 +13,7 @@ public class LMTCreativeModeTabs {
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS).register((itemGroup) -> {
 			
 			itemGroup.addBefore(Items.QUARTZ, LMTItems.SULFUR);
+			itemGroup.addAfter(Items.COAL, LMTItems.SALTPETER);
 			
 		});
 		
