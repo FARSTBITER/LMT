@@ -1,0 +1,32 @@
+{
+  "parent": "lmt:recipes/root",
+  "criteria": {
+    "has_niter_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "lmt:niter_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lmt:niter_from_smelting_niter_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_niter_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lmt:niter_from_smelting_niter_ore"
+    ]
+  }
+}

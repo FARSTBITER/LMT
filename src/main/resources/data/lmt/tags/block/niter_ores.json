@@ -1,5 +1,6 @@
 {
   "values": [
+	"lmt:niter_ore",
     "lmt:deepslate_niter_ore"
   ]
 }
