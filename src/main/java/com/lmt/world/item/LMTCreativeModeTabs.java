@@ -19,6 +19,7 @@ public class LMTCreativeModeTabs {
 		
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.BUILDING_BLOCKS).register((itemGroup) -> {
 			
+			itemGroup.addBefore(Items.COAL_BLOCK, LMTBlocks.SALTPETER_BLOCK);
 			itemGroup.addBefore(Items.REDSTONE_BLOCK, LMTBlocks.SULFUR_BLOCK);
 			
 		});
