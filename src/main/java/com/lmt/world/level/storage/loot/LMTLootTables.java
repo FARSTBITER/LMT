@@ -14,14 +14,14 @@ import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 
 public class LMTLootTables {
 	
-	private static final Identifier BLAZE_KEY =  Identifier.fromNamespaceAndPath("minecraft", "entities/blaze");
+	private static final Identifier BLAZE_ID =  Identifier.fromNamespaceAndPath("minecraft", "entities/blaze");
 	private static final Identifier PIGLIN_BARTER =  Identifier.fromNamespaceAndPath("minecraft", "gameplay/piglin_bartering");
 	
 	public static void initialize() {
 			
 		LootTableEvents.MODIFY.register((key, tableBuilder, source, registry) -> {
 		
-			if(BLAZE_KEY.equals(key.identifier())) {
+			if(BLAZE_ID.equals(key.identifier())) {
 			
 				LootPool.Builder poolBuilder = LootPool.lootPool()
 						.setRolls(ConstantValue.exactly(1))

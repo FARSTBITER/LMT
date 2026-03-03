@@ -1,11 +1,11 @@
 {
   "parent": "lmt:recipes/root",
   "criteria": {
-    "has_saltpeter": {
+    "has_niter_block": {
       "conditions": {
         "items": [
           {
-            "items": "lmt:saltpeter"
+            "items": "lmt:niter_block"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "lmt:saltpeter_block"
+        "recipe": "lmt:niter"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_saltpeter"
+      "has_niter_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "lmt:saltpeter_block"
+      "lmt:niter"
     ]
   }
 }

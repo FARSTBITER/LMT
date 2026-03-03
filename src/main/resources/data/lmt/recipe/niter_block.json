@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": "lmt:saltpeter"
+    "#": "lmt:niter"
   },
   "pattern": [
     "###",
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "lmt:saltpeter_block"
+    "id": "lmt:niter_block"
   }
 }

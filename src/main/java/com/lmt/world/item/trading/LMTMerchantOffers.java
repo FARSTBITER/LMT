@@ -16,7 +16,7 @@ public class LMTMerchantOffers {
 		
 		TradeOfferHelper.registerWanderingTraderOffers(factories -> {
 			
-			factories.addAll(Identifier.fromNamespaceAndPath(LMT.MOD_ID, "saltpeter"), (world, entity, random) -> new MerchantOffer(new ItemCost(Items.EMERALD, 1), new ItemStack(LMTItems.SALTPETER, 6), 4, 8, 0.05F));
+			factories.addAll(Identifier.fromNamespaceAndPath(LMT.MOD_ID, "niter"), (world, entity, random) -> new MerchantOffer(new ItemCost(Items.EMERALD, 1), new ItemStack(LMTItems.NITER, 6), 4, 8, 0.05F));
 			
 		});
 		

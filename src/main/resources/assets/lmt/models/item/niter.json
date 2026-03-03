@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "lmt:item/saltpeter"
+    "layer0": "lmt:item/niter"
   }
 }

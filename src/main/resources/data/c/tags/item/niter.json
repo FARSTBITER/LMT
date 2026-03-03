@@ -2,7 +2,7 @@
   "replace": false
   "values": [
     {
-      "id": "lmt:saltpeter",
+      "id": "lmt:niter",
       "required": false
     }
   ]

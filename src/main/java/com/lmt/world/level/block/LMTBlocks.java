@@ -21,9 +21,9 @@ import net.minecraft.world.level.material.MapColor;
 
 public class LMTBlocks {
 	
-	public static final Block SALTPETER_BLOCK = register("saltpeter_block", Block::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.CALCITE));
-	public static final Block SULFUR_BLOCK = register("sulfur_block", Block::new, BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_YELLOW).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.CALCITE));
 	public static final Block NETHER_SULFUR_ORE = register("nether_sulfur_ore", properties -> new DropExperienceBlock(UniformInt.of(0, 1), properties), BlockBehaviour.Properties.of().mapColor(MapColor.NETHER).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(3.0F, 3.0F).sound(SoundType.NETHER_ORE));
+	public static final Block SULFUR_BLOCK = register("sulfur_block", Block::new, BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_YELLOW).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.CALCITE));
+	public static final Block NITER_BLOCK = register("niter_block", Block::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_GRAY).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.CALCITE));
 	
 	public static void initialize() {
 		

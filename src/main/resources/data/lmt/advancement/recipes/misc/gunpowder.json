@@ -1,11 +1,11 @@
 {
   "parent": "lmt:recipes/root",
   "criteria": {
-    "has_saltpeter": {
+    "has_niter": {
       "conditions": {
         "items": [
           {
-            "items": "lmt:saltpeter"
+            "items": "lmt:niter"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_saltpeter"
+      "has_niter"
     ]
   ],
   "rewards": {

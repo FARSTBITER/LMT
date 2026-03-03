@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "lmt:saltpeter_block"
+          "name": "lmt:niter_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "lmt:blocks/saltpeter_block"
+  "random_sequence": "lmt:blocks/niter_block"
 }

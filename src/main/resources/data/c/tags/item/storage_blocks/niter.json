@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "lmt:sulfur",
-	"lmt:saltpeter"
+    "lmt:niter_block"
   ]
 }

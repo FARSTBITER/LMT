@@ -11,10 +11,10 @@ public class LMTFuelValues {
 		
 		FuelRegistryEvents.BUILD.register((builder, context) -> {
 			
-			builder.add(LMTBlocks.SALTPETER_BLOCK, 8000);
+			builder.add(LMTBlocks.SULFUR_BLOCK, 8000);
+			builder.add(LMTBlocks.NITER_BLOCK, 8000);
 			builder.add(LMTItems.SULFUR, 800);
-			builder.add(LMTItems.SALTPETER, 800);
-			builder.add(LMTBlocks.SULFUR_BLOCK.asItem(), 8000);
+			builder.add(LMTItems.NITER, 800);
 			
 		});
 		

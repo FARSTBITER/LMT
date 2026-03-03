@@ -1,15 +1,15 @@
 {
-  "block.lmt.saltpeter_block": "Block of Saltpeter",
-  "block.lmt.sulfur_block": "Block of Sulfur",
   "block.lmt.nether_sulfur_ore": "Nether Sulfur Ore",
+  "block.lmt.sulfur_block": "Block of Sulfur",
+  "block.lmt.niter_block": "Block of Niter",
   "item.lmt.sulfur": "Sulfur",
-  "item.lmt.saltpeter": "Saltpeter",
+  "item.lmt.niter": "Niter",
   "tag.block.c.ores.sulfur": "Sulfur Ores",
   "tag.block.c.storage_blocks.sulfur": "Storage Blocks of Sulfur",
-  "tag.block.c.storage_blocks.saltpeter": "Storage Blocks of Saltpeter",
+  "tag.block.c.storage_blocks.niter": "Storage Blocks of Niter",
   "tag.item.c.sulfur": "Sulfur",
-  "tag.item.c.saltpeter": "Saltpeter",
+  "tag.item.c.niter": "Niter",
   "tag.item.c.ores.sulfur": "Sulfur Ores",
   "tag.item.c.storage_blocks.sulfur": "Storage Blocks of Sulfur",
-  "tag.item.c.storage_blocks.saltpeter": "Storage Blocks of Saltpeter"
+  "tag.item.c.storage_blocks.niter": "Storage Blocks of Niter"
 }
