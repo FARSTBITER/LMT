@@ -18,5 +18,8 @@
   "tag.item.c.ores.niter": "Niter Ores",
   "tag.item.c.storage_blocks.charcoal": "Storage Blocks of Charcoal",
   "tag.item.c.storage_blocks.sulfur": "Storage Blocks of Sulfur",
-  "tag.item.c.storage_blocks.niter": "Storage Blocks of Niter"
+  "tag.item.c.storage_blocks.niter": "Storage Blocks of Niter",
+  "modmenu.nameTranslation.lmt": "LMT",
+  "modmenu.descriptionTranslation.lmt": "LMT is primarily a tutorial mod for learning modding, but it doesn't add tutorial things, but rather... all sorts of things that you'll likely find useful. There are no plans to provide specific compatibility with mods like REI/JEI/EMI/WTHIT. Most of the features will be technically integrated into the game, whether they were originally included, but compatibility with other mods will be maintained where possible (probably). If you have any questions, you can visit the wiki (it will likely have up-to-date information on all the mod's functionality), or ask a question or suggest an idea on issues.",
+  "modmenu.summaryTranslation.lmt": "Just a few things that might be helpful..."
 }
