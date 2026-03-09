@@ -101,6 +101,18 @@ public class LMTLootTables {
 				
 			}
 			
+			if(BuiltInLootTables.DESERT_PYRAMID.equals(key)) {
+				
+				LootPool.Builder poolBuilder = LootPool.lootPool()
+						.setRolls(ConstantValue.exactly(1))
+						.conditionally(LootItemRandomChanceCondition.randomChance(0.4F).build())
+						.with(LootItem.lootTableItem(LMTItems.NITER).build())
+						.apply(SetItemCountFunction.setCount(UniformGenerator.between(4, 8)).build());
+					
+				tableBuilder.pool(poolBuilder.build());
+				
+			}
+			
 		});
 		
 	}
