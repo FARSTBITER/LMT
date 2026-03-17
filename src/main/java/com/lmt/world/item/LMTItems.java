@@ -3,6 +3,7 @@ package com.lmt.world.item;
 import java.util.function.Function;
 
 import com.lmt.LMT;
+import com.lmt.world.food.LMTFoods;
 
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -16,6 +17,7 @@ public class LMTItems {
 	public static final Item SULFUR = register("sulfur", Item::new, new Item.Properties());
 	public static final Item NITER = register("niter", Item::new, new Item.Properties());
 	public static final Item RAG = register("rag", Item::new, new Item.Properties());
+	public static final Item JERKY = register("jerky", Item::new, new Item.Properties().food(LMTFoods.JERKY));
 	
 	public static void initialize() {
 		

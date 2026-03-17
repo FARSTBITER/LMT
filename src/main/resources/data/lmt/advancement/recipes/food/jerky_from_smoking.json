@@ -1,0 +1,32 @@
+{
+  "parent": "lmt:recipes/root",
+  "criteria": {
+    "has_rotten_flesh": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:rotten_flesh"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lmt:jerky_from_smoking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rotten_flesh"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lmt:jerky_from_smoking"
+    ]
+  }
+}

@@ -34,6 +34,12 @@ public class LMTCreativeModeTabs {
 			
 		});
 		
+		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FOOD_AND_DRINKS).register((itemGroup) -> {
+			
+			itemGroup.addAfter(Items.ROTTEN_FLESH, LMTItems.JERKY);
+			
+		});
+		
 	}
 
 }
