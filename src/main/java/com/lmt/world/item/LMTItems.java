@@ -15,6 +15,7 @@ public class LMTItems {
 	
 	public static final Item SULFUR = register("sulfur", Item::new, new Item.Properties());
 	public static final Item NITER = register("niter", Item::new, new Item.Properties());
+	public static final Item RAG = register("rag", Item::new, new Item.Properties());
 	
 	public static void initialize() {
 		

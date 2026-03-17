@@ -1,0 +1,32 @@
+{
+  "parent": "lmt:recipes/root",
+  "criteria": {
+    "has_rag": {
+      "conditions": {
+        "items": [
+          {
+            "items": "lmt:rag"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lmt:leather_from_smelting_rag"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rag"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lmt:leather_from_smelting_rag"
+    ]
+  }
+}

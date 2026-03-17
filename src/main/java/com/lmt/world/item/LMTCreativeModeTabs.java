@@ -14,6 +14,7 @@ public class LMTCreativeModeTabs {
 			
 			itemGroup.addBefore(Items.COAL, LMTItems.NITER);
 			itemGroup.addBefore(Items.QUARTZ, LMTItems.SULFUR);
+			itemGroup.addBefore(Items.LEATHER, LMTItems.RAG);
 			
 		});
 		
