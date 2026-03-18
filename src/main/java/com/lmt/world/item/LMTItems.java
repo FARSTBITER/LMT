@@ -18,6 +18,7 @@ public class LMTItems {
 	public static final Item NITER = register("niter", Item::new, new Item.Properties());
 	public static final Item RAG = register("rag", Item::new, new Item.Properties());
 	public static final Item JERKY = register("jerky", Item::new, new Item.Properties().food(LMTFoods.JERKY));
+	public static final Item FRIED_EGG = register("fried_egg", Item::new, new Item.Properties().food(LMTFoods.FRIED_EGG));
 	
 	public static void initialize() {
 		

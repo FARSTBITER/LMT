@@ -37,6 +37,7 @@ public class LMTCreativeModeTabs {
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FOOD_AND_DRINKS).register((itemGroup) -> {
 			
 			itemGroup.addAfter(Items.ROTTEN_FLESH, LMTItems.JERKY);
+			itemGroup.addAfter(Items.PUMPKIN_PIE, LMTItems.FRIED_EGG);
 			
 		});
 		
