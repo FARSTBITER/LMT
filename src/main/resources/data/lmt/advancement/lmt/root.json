@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "crafting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "lmt:gui/advancements/backgrounds/lmt",
+    "description": {
+      "translate": "advancements.lmt.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:pale_oak_planks"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.lmt.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

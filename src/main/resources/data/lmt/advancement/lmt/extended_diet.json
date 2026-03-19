@@ -1,0 +1,46 @@
+{
+  "parent": "lmt:lmt/root",
+  "criteria": {
+    "jerky": {
+      "conditions": {
+        "item": {
+          "items": "lmt:jerky"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+	"fried_egg": {
+	      "conditions": {
+	        "item": {
+	          "items": "lmt:fried_egg"
+	        }
+	      },
+	      "trigger": "minecraft:consume_item"
+	    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.lmt.extended_diet.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "lmt:fried_egg"
+    },
+    "title": {
+      "translate": "advancements.lmt.extended_diet.title"
+    }
+  },
+  "requirements": [
+    [
+      "jerky"
+    ],
+    [
+      "fried_egg"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}
