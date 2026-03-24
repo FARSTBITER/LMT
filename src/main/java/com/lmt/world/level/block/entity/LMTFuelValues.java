@@ -3,19 +3,23 @@ package com.lmt.world.level.block.entity;
 import com.lmt.world.item.LMTItems;
 import com.lmt.world.level.block.LMTBlocks;
 
-import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
+import net.fabricmc.fabric.api.registry.FuelValueEvents;
 
 public class LMTFuelValues {
 	
 	public static void initialize() {
 		
-		FuelRegistryEvents.BUILD.register((builder, context) -> {
+		FuelValueEvents.BUILD.register((builder, context) -> {
 			
-			builder.add(LMTBlocks.CHARCOAL_BLOCK, 16000);
-			builder.add(LMTBlocks.SULFUR_BLOCK, 8000);
-			builder.add(LMTBlocks.NITER_BLOCK, 8000);
-			builder.add(LMTItems.SULFUR, 800);
-			builder.add(LMTItems.NITER, 800);
+			if(context.registries() != null) {
+			
+				builder.add(LMTBlocks.CHARCOAL_BLOCK, 16000);
+				builder.add(LMTBlocks.SULFUR_BLOCK, 8000);
+				builder.add(LMTBlocks.NITER_BLOCK, 8000);
+				builder.add(LMTItems.SULFUR, 800);
+				builder.add(LMTItems.NITER, 800);
+			
+			}
 			
 		});
 		

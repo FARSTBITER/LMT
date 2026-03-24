@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "lmt",
-	"version": "0.3.0",
+	"version": "0.3.0-beta.1",
 	"name": "LMT",
 	"description": "Just a few things that might be helpful...",
 	"authors": [
@@ -32,9 +32,9 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.18.4",
-		"minecraft": "1.21.11",
-		"java": ">=21",
-		"fabric-api": ">=0.141.3+1.21.11"
+		"minecraft": "26.1",
+		"java": ">=25",
+		"fabric-api": ">=0.144.0+26.1"
 	},
 	"recommends": {
 		"modmenu": "*"
