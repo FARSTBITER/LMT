@@ -3,7 +3,6 @@ package com.lmt;
 import com.lmt.data.worldgen.LMTBiomeDefaultFeatures;
 import com.lmt.world.item.LMTCreativeModeTabs;
 import com.lmt.world.item.LMTItems;
-import com.lmt.world.item.trading.LMTMerchantOffers;
 import com.lmt.world.level.block.LMTBlocks;
 import com.lmt.world.level.block.LMTFlammableBlocks;
 import com.lmt.world.level.block.entity.LMTFuelValues;
@@ -25,7 +24,6 @@ public class LMT implements ModInitializer {
 		LMTLootTables.initialize();
 		LMTCreativeModeTabs.initialize();
 		LMTBiomeDefaultFeatures.initialize();
-		LMTMerchantOffers.initialize();
 		
 	}
 	
